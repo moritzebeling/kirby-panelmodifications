@@ -15,3 +15,9 @@ To compile SCSS, run:
 ```
 sass --watch --style=compressed --no-source-map index.scss index.css
 ```
+Or, when this inside your Kirby installation:
+```
+sass --watch --style=compressed --no-source-map site/plugins/kirby-panelmodifications/index.scss site/plugins/kirby-panelmodifications/index.css
+```
+
+Issues and PRs welcome.
