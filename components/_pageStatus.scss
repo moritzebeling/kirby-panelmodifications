@@ -1,0 +1,17 @@
+// hide page status dots when status can’t be changed by user
+.k-pages-section .k-list-item {
+  .k-list-item-status.k-button[data-disabled] {
+    display: none;
+  }
+}
+
+// hide dots on site view
+/*
+.k-site-view {
+  .k-pages-section .k-list-item {
+    .k-list-item-options {
+      display: none;
+    }
+  }
+}
+*/
