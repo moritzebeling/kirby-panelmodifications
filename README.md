@@ -15,17 +15,9 @@ Issues and PRs welcome.
 
 ## Installation
 
-Clone as plugin into your Kirby installation
+Don’t use as submodule if you want to adjust this plugin to your own needs. Clone instead:
 ```
 git clone https://github.com/moritzebeling/kirby-panelmodifications.git site/plugins/kirby-panelmodifications
-```
-As submodule
-```
-git submodule add https://github.com/moritzebeling/kirby-panelmodifications.git site/plugins/kirby-panelmodifications
-```
-Update submodules
-```
-git submodule foreach git pull origin master
 ```
 
 ## Compile
