@@ -1,10 +1,10 @@
 // make disabled fields grey to reduce confusion
 
 .k-field[data-disabled] {
-  .k-card,
-  .k-list-item {
-      border: 1px solid #ccc;
-  }
+  // .k-card,
+  // .k-list-item {
+  //     // border: 1px solid #ccc;
+  // }
   .k-card,
   .k-list-item,
   .k-structure-table,
@@ -14,7 +14,7 @@
   .k-structure-table {
     -webkit-box-shadow: unset;
     box-shadow: unset;
-    border: 1px solid #d9d9d9;
+    // border: 1px solid #d9d9d9;
     th, td {
       background-color: #f0f0f0;
       border-color: #d9d9d9;
